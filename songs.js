@@ -5,11 +5,11 @@ const songs = [
         artist: "Anurag Kulkarni", 
         movie: "Endhukante Premanta", 
         genre: "Classical", 
-        filename: "Nee_Choopule.mp3", 
+        filename: "Nee Choopule.mp3", 
         downloads: 120, 
         likes: 50, 
         listenTime: 300,
-        image: "images/endhukante_premanta.jpg" 
+        image: "images/endhukante_premanta.jpeg" 
     },
     {
         id: 2, 
