@@ -11,18 +11,18 @@ const songs = [
     //     listenTime: 300,
     //     image: "images/endhukante_premanta.jpeg" 
     // },
-    // {
-    //     id: 2, 
-    //     title: "Ra Ra Chukkalane", 
-    //     artist: "Kartik", 
-    //     movie: "Dear Comrade", 
-    //     genre: "Romantic", 
-    //     filename: "Ra_Ra_Chukkalane.mp3", 
-    //     downloads: 200, 
-    //     likes: 100, 
-    //     listenTime: 450,
-    //     image: "images/dear_comrade.jpg"
-    // },
+    {
+        id: 2, 
+        title: "Ra Ra Chukkalane", 
+        artist: "Kartik", 
+        movie: "Dear Comrade", 
+        genre: "Romantic", 
+        filename: "Ra_Ra_Chukkalane.mp3", 
+        downloads: 200, 
+        likes: 100, 
+        listenTime: 450,
+        image: "images/dear_comrade.jpg"
+    },
     {
         id: 3, 
         title: "Kadalalle", 
@@ -59,18 +59,18 @@ const songs = [
         listenTime: 500,
         image: "images/kanche.jpg"
     },
-    {
-        id: 6, 
-        title: "Emi cheyamandhuve", 
-        artist: "Shankar Mahadevan", 
-        movie: "Priyuralu Pilichindhi", 
-        genre: "Melody", 
-        filename: "priyuralu_pilichindhi.mp3", 
-        downloads: 300, 
-        likes: 150, 
-        listenTime: 500,
-        image: "images/priyuralu_pilichindhi.jpg"
-    },
+    // {
+    //     id: 6, 
+    //     title: "Emi cheyamandhuve", 
+    //     artist: "Shankar Mahadevan", 
+    //     movie: "Priyuralu Pilichindhi", 
+    //     genre: "Melody", 
+    //     filename: "priyuralu_pilichindhi.mp3", 
+    //     downloads: 300, 
+    //     likes: 150, 
+    //     listenTime: 500,
+    //     image: "images/priyuralu_pilichindhi.jpg"
+    // },
     {
         id: 7, 
         title: "Palike Gorinka", 
