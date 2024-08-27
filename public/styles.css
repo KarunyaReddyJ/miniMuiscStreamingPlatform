@@ -30,7 +30,7 @@ header h1 {
 /* Container Styles */
 .container {
     display: flex;
-    flex-direction: column; /* Stack sections on mobile */
+    flex-direction: column-reverse; /* Stack sections on mobile */
     padding: 10px;
 }
 
