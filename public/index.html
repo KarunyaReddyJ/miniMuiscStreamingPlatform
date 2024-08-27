@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Song Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Song Player</h1>
+        <input type="text" id="search-bar" placeholder="Search for a song or artist...">
+    </header>
+    <main class="container">
+        <section class="song-list">
+            <h2>Available Songs</h2>
+            <ul id="songList">
+                <!-- Songs will be dynamically loaded here -->
+            </ul>
+        </section>
+        <section class="player">
+            <h2>Now Playing</h2>
+            <img src="" alt="" id="cover">
+            <audio id="player" controls>
+                Your browser does not support the audio element.
+            </audio>
+            <div class="song-details">
+                <p id="artist"></p>
+                <p id="likes"></p>
+                <p id="downloads"></p>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
