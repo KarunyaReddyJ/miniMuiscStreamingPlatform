@@ -50,6 +50,18 @@ const songs = [
         listenTime: 500,
         image: "images/priyuralu_pilichindhi.jpg"
     },
+    {
+        id: 8, 
+        title: "Sarrainodu", 
+        artist: "Hard Kaur", 
+        movie: "Sarrainodu", 
+        genre: "Melody", 
+        filename: "sarrainodu.mp3", 
+        downloads: 300, 
+        likes: 150, 
+        listenTime: 500,
+        image: "images/sarrainodu.jpeg"
+    },
 ];
 
 module.exports=songs
