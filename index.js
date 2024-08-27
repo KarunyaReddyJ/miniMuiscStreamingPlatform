@@ -42,6 +42,7 @@ app.get('/api/songs/:id/details', (req, res) => {
 app.get('/api/songs/:id/stream', (req, res) => {
     const songId = parseInt(req.params.id, 10);
     const song = songs.find(s => s.id === songId);
+    console.log(song)
     if (song) {
         const filePath = path.join(__dirname, 'songs', song.filename);
         res.sendFile(filePath);
