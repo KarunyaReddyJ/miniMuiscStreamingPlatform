@@ -1,15 +1,15 @@
 const songs = [
     {
         id: 1, 
-        title: "Sudda Brahma", 
+        title: "Nee Choopule", 
         artist: "Anurag Kulkarni", 
-        movie: "Sri Ramadasu", 
+        movie: "Endhukante Premanta", 
         genre: "Classical", 
-        filename: "Sudda Brahma.mp3", 
+        filename: "Nee Choopule.mp3", 
         downloads: 120, 
         likes: 50, 
         listenTime: 300,
-        image: "images/rama.jpg" 
+        image: "images/endhukante_premanta.jpg" 
     },
     {
         id: 2, 
