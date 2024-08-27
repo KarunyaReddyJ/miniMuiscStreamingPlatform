@@ -8,9 +8,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const likes = document.getElementById('likes');
     const downloads = document.getElementById('downloads');
 
-   setTimeout(() => {
+   
     fetchSongs();
-   }, 1000);
+   
 
     function fetchSongs(query = '') {
         fetch(`/api/songs?q=${encodeURIComponent(query)}`)
@@ -28,14 +28,11 @@ document.addEventListener('DOMContentLoaded', () => {
         fetch(`/api/songs/${songId}/details`)
             .then(response => response.json())
             .then(song => {
-                setTimeout(() => {
                     cover.src = song.image;
-                }, 800);
+                
                 artist.innerHTML = `Artist: ${song.artist}`
                 artist.addEventListener('click',()=>{
-                   setTimeout(() => {
                     fetchSongs(song.artist)
-                   }, 1500);
                 })
                 likes.innerText = `Likes: ${song.likes}`;
                 downloads.innerText = `Downloads: ${song.downloads}`;
