@@ -95,6 +95,30 @@ const songs = [
         listenTime: 500,
         image: "images/sarrainodu.jpg"
     },
+    {
+        id: 9, 
+        title: "O Maahi", 
+        artist: "Arijit Singh", 
+        movie: "Dunki", 
+        genre: "Melody", 
+        filename: "O Maahi.mp3", 
+        downloads: 300, 
+        likes: 150, 
+        listenTime: 500,
+        image: "images/dunki.jpeg"
+    },
+    {
+        id: 10, 
+        title: "KhaliBhali", 
+        artist: "Pta Nhi", 
+        movie: "Padmavati", 
+        genre: "Melody", 
+        filename: "KhaliBhali.mp3", 
+        downloads: 300, 
+        likes: 150, 
+        listenTime: 500,
+        image: "images/padmawat.jpeg"
+    },
 ];
 
 module.exports=songs
